@@ -36,7 +36,7 @@ const Monsters = () => {
 
     return (
         <div className="monster_container">
-            <div>Monsters List</div>
+            <h1>Monsters List</h1>
             <input type="text" placeholder="Enter Monster" defaultValue={monsterName} ref={inputRef}/>
             
             {!error && !filteredMonster && 
