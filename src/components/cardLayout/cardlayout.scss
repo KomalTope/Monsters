@@ -1,0 +1,21 @@
+.card-container {
+    background-color: #95dada;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    transform: translateZ(0);
+    transition: transform 0.25s ease-out;
+    text-align: center;
+    margin-bottom : 10px;
+
+    img {
+      width: 100px;
+      height: 100px;
+    }
+  }
+  
+  .card-container:hover {
+    transform: scale(1.05);
+  }
+  
